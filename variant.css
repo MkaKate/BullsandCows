@@ -1,0 +1,91 @@
+html, body {
+    overflow: hidden; /* Забороняє прокручування сторінки */
+    height: 100%; /* Встановлює висоту на 100% */
+    margin: 0; /* Забирає відступи */
+}
+
+canvas{
+    display: block;
+    margin: 0 auto;
+    color: #000;
+}
+.btn {
+    display: flex;
+    flex-direction: column; /* Встановлює напрямок вирівнювання елементів в стовпчик */
+    align-items: center; /* Вирівнює елементи по центру */
+    gap: 10px; /* Відстань між кнопками */
+}
+
+.digits3, .digits4, .digits5, .digits6 {
+    display: block; /* Забезпечує, що посилання поводяться як блокові елементи */
+    width: 100px; /* Ширина кнопки */
+    text-align: center; /* Вирівнювання тексту по центру */
+    padding: 10px; /* Внутрішні відступи */
+    background-color: #e8b483; /* Фон кнопки */
+    color: #000000; /* Колір тексту */
+    text-decoration: none; /* Видаляє підкреслення з посилань */
+    border-radius: 5px; /* Закруглені кути */
+    transition: background-color 0.3s; /* Анімація зміни фону */
+    position: relative;
+    top:-600px;
+    right: 100px;
+}
+
+.digits3:hover, .digits4:hover, .digits5:hover, .digits6:hover {
+    background-color: #0056b3; /* Зміна фону при наведенні */
+}
+
+/* .btn{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+margin-top: 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 60px ;
+    border-radius: 40px;
+    background-color:  rgb(188, 188, 188);
+    box-shadow: 0 -3px rgb(188, 188, 188) inset;
+    transition: 0.2s; */
+    /* position: relative; 
+    height: 30vh;
+    top: -100em;
+    left: 38em;
+    right: 20em;
+    /* border: 2px solid #ffffff;
+    background-color:  rgb(188, 188, 188);
+    color: #000000;
+    padding: 14px 60px ;
+    border-radius: 40px; */
+/* 
+    border: 2px solid #ffffff;
+    background-color:  rgb(188, 188, 188);
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 550px;
+    padding: 14px 60px ;
+    border-radius: 40px;
+      */
+    /* position: absolute;
+   top: 80px;
+   left: 36em; */
+/*}
+
+/* .nav{
+    display: flex;
+    flex-flow: row; 
+    justify-content: space-between; 
+    position: relative;
+    width: 60vh;
+    top: -30em;
+    left: 25em;
+    right: 20em;
+    color: #000000;
+    font-size: 22px; 
+    } */
+ 

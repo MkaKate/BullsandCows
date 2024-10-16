@@ -1,0 +1,52 @@
+html, body {
+    overflow: hidden; /* Забороняє прокручування сторінки */
+    height: 100%; /* Встановлює висоту на 100% */
+    margin: 0; /* Забирає відступи */
+}
+canvas{
+    display: block;
+    margin: 0 auto;
+    color: #000;
+}
+    .btn {
+        display: flex;
+        flex-direction: column; /* Встановлює напрямок вирівнювання елементів в стовпчик */
+        align-items: center; /* Вирівнює елементи по центру */
+        gap: 10px; /* Відстань між кнопками */
+    }
+
+/* .play{
+    border: 2px solid #ffffff;
+    background-color:  rgb(188, 188, 188);
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 550px;
+    padding: 14px 60px ;
+    border-radius: 40px;
+     
+    position: absolute;
+   top: 80px;
+   left: 36em;
+} */
+
+
+
+.play, .android{
+    display: block; /* Забезпечує, що посилання поводяться як блокові елементи */
+    width: 100px; /* Ширина кнопки */
+    text-align: center; /* Вирівнювання тексту по центру */
+    padding: 10px; /* Внутрішні відступи */
+    background-color: #e8b483; /* Фон кнопки */
+    color: #000000; /* Колір тексту */
+    text-decoration: none; /* Видаляє підкреслення з посилань */
+    border-radius: 5px; /* Закруглені кути */
+    transition: background-color 0.3s; /* Анімація зміни фону */
+    position: relative;
+    top:-600px;
+    right: 100px;
+}
+
+.play:hover, .android:hover {
+    background-color: #0056b3; /* Зміна фону при наведенні */
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulls and Cows Game</title>
+    <link rel="stylesheet" href="rules.css">
+</head>
+<body>
+    <canvas id="game" width="500" height="667"></canvas>
+    <div class="rules-container">
+        <h1>Bulls and Cows</h1>
+        <p>
+            Bulls and cows is a logical game for guessing numbers, also known as Mastermind, 4digits or 1A2B. Your goal is to guess your opponent's secret number with a minimum number of suggestions.
+        </p>
+        <p>
+            You can play Bulls and cows in two game modes: <strong>Single player</strong> or <strong>Against Android</strong>.
+        </p>
+        <p>
+            In <strong>Single player</strong> mode, you try to guess a secret number. On each guess, the game announces the number of "cows" and "bulls" in your suggestion.
+        </p>
+        <p>
+            When playing <strong>Against Android</strong>, you start by entering your secret number. On the next turn, your opponent (Android) generates his secret number.
+        </p>
+        <p>
+            On each move, the player tries to guess his/her opponent's number. The opponent responds by announcing the number of matches. If the matching digits are in their correct positions, they are "bulls". If they are in different positions, they are "cows". The first person to reveal their opponent's secret number wins the game.
+        </p>
+        <p>
+            <strong>Note:</strong> Digits in the number can't be duplicated.
+        </p>
+        <p>
+            Example:
+        </p>
+        <p>
+            Secret number: 8561<br>
+            Opponent's try: 3518<br>
+            Answer: 1 bull and 2 cows. (The bull is "5", the cows are "8" and "1".)
+        </p>
+        <h1>Draft</h1>
+        <img class="img" src="img/draft.jpg" />
+        <p>
+        You can use the draft to mark digits that you think are included or not in your opponent secret number.
+    </p>
+    <p>
+Click on a digit to mark it as excluded. Double click on a digit to mark it as included. To clear the digit, tap it again.
+</p>
+<p>
+When you mark a digit as excluded, the excluded digit will be disabled on the keyboard. You can change this in settings:<strong> Disable numbers.</strong>
+</p>    
+</div>
+    <script src="rules.js"></script>
+</body>
+</html>

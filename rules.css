@@ -1,0 +1,43 @@
+html, body {
+    overflow: hidden; /* Забороняє прокручування сторінки */
+    height: 100%; /* Встановлює висоту на 100% */
+    margin: 0; /* Забирає відступи */
+    font-family: Arial, sans-serif; /* Встановлює шрифт */
+    /* background-color: #f0f0f0; Встановлює фоновий колір */
+    color: #333; /* Встановлює колір тексту */
+}
+
+/* canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #000;
+} */
+
+.rules-container {
+    max-width: 460px;
+    height: 615px;/*600px; /* Фіксована висота */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Вертикальна прокрутка */
+    position: relative;
+    top: -680px;
+}
+
+.rules-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.rules-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.img{
+    height: 47px;
+}
